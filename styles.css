@@ -1,0 +1,53 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 300px;
+    width: 800px;
+    background-color: rgb(86, 139, 121);
+    margin-top: 200px;
+    
+}
+
+.game-content{
+    position: relative;
+    left: 80px;
+    top: 150px;
+}
+
+input[type=number] {
+    width: 30%;      
+    padding: 10px 12px;
+    font-size: larger;   
+  }
+
+  #btnGuess{
+    width: 30%;
+    padding:12px 30px ;
+    background-color: red;
+    border-radius: 6px;
+    border-color: rgb(199, 107, 107);
+    font-size: 1.4rem;
+  }
+
+  #btnGuess:hover{
+    background-color: rgb(147, 37, 37);
+  }
+
+  .titlle{
+    color: white;
+    margin-bottom: 20px;    
+  }
+
+  #statement{
+    color: rgba(195, 234, 2, 0.705);
+  }
